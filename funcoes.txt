@@ -361,7 +361,6 @@ Parâmetros:
 Sem parâmetros.
 Retorno:
 Integer
-
 Função VolumeD
 A função VolumeD tem como finalidade retornar o volume financeiro de um número determinado de
 dias atrás.
@@ -490,8 +489,8 @@ integer, var
 Parâmetros:
 Comprimento: Tamanho utilizado para calcular a média do corpo do candle.
 Fator: Determina quantas vezes a sombra do candle deve ser maior que o seu corpo.
-.oHammer: Variável para identificação de padrão(Hammer).
-“oHangingMan: Variável para identificação de padrão(Hanging Man).
+Hammer: Variável para identificação de padrão(Hammer).
+HangingMan: Variável para identificação de padrão(Hanging Man).
 Retorno:
 Integer:
 Identificação(retorno função):
@@ -501,7 +500,7 @@ Identificação(retomo variável: oHammer):
 0 - Padrão Momning Hammer não foi identificado.
 1- Padrão Moming Hammer identificado.
 Identificação(retorno variável: oHangingMan):
-Entrada einput
+Entrada input
 Área de declaração de parâmetros de entrada
 Na área de declaração de parâmetros de entrada informamos todos os parâmetros externos que a
 estratégia usará. Esses parâmetros são fundamentais, pois:
