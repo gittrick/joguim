@@ -1,10 +1,3 @@
-A NTSL (Nelogica Trading System Language) é uma poderosa linguagem criada com um único
-propósito: permitir o desenvolvimento dos melhores e mais eficientes sistemas algorítmicos de
-operação. A Nelogica oferece juntamente com a NTSL um ambiente de criação pioneiro e revolucionário
-chamado AlgoTools. Com o AlgoTools é possível codificar, testar e simular com grande agilidade
-qualquer estratégia de operação. Na NTSL, o usuário encontra uma grande facilidade no momento de
-criação de suas estratégias, a possibilidade de criar toda ela em português, havendo assim, a facilidade
-e fácil entendimento da estratégia criada.
 Função CurrentDate
 A função CurrentDate possui como finalidade retornar a data atual do sistema.
 Observação: Datas são representadas pelo tipo de dado "Integer”, no formato: 1AnoMêsDia.
