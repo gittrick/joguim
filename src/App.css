@@ -19,8 +19,12 @@ body,
 
 .blend-orange img {
   filter: hue-rotate(0deg) saturate(300%) brightness(60%);
+  max-width: 100%; /* Limita a largura máxima da imagem */
+  height: auto; /* Mantém a proporção da imagem */
 }
 
 .blend-red img {
   filter: hue-rotate(0deg) saturate(300%) brightness(40%);
+  max-width: 100%; /* Limita a largura máxima da imagem */
+  height: auto; /* Mantém a proporção da imagem */
 }
