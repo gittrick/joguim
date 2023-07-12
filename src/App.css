@@ -1,0 +1,26 @@
+html,
+body,
+#root {
+  margin: 0 auto;
+  text-align: center;
+  height: 100%;
+  background-color: #c8ffbe;
+}
+
+.arrow-icon {
+  /* Adjust the size as needed */
+  transition: transform 0.4s ease; /* Smooth transition for the rotation */
+  transform: rotate(270deg); /* Rotate the arrow by 270 degrees */
+}
+
+.rotate {
+  transform: rotate(90deg); /* Rotate the arrow by 180 degrees */
+}
+
+.blend-orange img {
+  filter: hue-rotate(0deg) saturate(300%) brightness(60%);
+}
+
+.blend-red img {
+  filter: hue-rotate(0deg) saturate(300%) brightness(40%);
+}
